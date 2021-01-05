@@ -39,11 +39,11 @@ void process_image_callback(const sensor_msgs::Image img)
 
     if(white_pixel_found){
         if(position==0){
-            drive_robot(0.0,0.5);
+            drive_robot(0.1,0.5);
         }else if(position==1){
             drive_robot(0.2,0.0);
         }else if(position==2){
-            drive_robot(0.0,-0.5);
+            drive_robot(0.1,-0.5);
         }
         else{
             ROS_WARN("Another position");
