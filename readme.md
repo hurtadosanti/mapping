@@ -1,5 +1,5 @@
 # Go chase it!
-On this project we create a simulated robot using Gazebo and Ros that can chase a white ball.
+In this project, we create a simulated robot using Gazebo and Ros that can chase a white ball.
 
 ## Dependencies
 - Ubuntu 16.04
