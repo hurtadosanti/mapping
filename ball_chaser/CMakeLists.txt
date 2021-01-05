@@ -183,7 +183,7 @@ target_link_libraries(drive_bot_node
 add_dependencies(drive_bot_node ${catkin_EXPORTED_TARGETS})
 
 # Process Image
-add_executable(process_image_node src/drive_bot.cpp)
+add_executable(process_image_node src/process_image.cpp)
 target_link_libraries(process_image_node
    ${catkin_LIBRARIES}
 )
