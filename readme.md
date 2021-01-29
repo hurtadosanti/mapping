@@ -1,27 +1,32 @@
-# Go chase it!
-In this project, we create a simulated robot using Gazebo and Ros that can chase a white ball.
+# Where Am I?
+In this project, we create a simulated robot using Gazebo and Ros that can identify the pose and localization. We use ROS [AMCL](http://wiki.ros.org/amcl) package. The package is an implementation of the adaptive Monte Carlo localization approach.
+
+![sample](./resources/amcl.png)
 
 ## Dependencies
 - Ubuntu 16.04
 - ROS Kinetic Kame
+- [AMCL]((http://wiki.ros.org/amcl)) ROS Module
 ## Installation
 - Create a workspace
 
-        mkdir -p catkin_ws/src
-        cd catkin_ws/src
+        mkdir -p catkin_ws
+        cd catkin_ws
 
 - Clone this repository on the src folder location
   
-        git clone git@github.com:hurtadosanti/go_chase_it.git ./
+        git clone git@github.com:hurtadosanti/localization.git ./src
 
 - Initialize workspace
-  
+        
+        cd src
         catkin_init_workspace
 
 - Build
   
         cd ..
         catkin_make
+        
 ## Execution
 
 - Run the main program in a terminal with X support
@@ -30,11 +35,8 @@ In this project, we create a simulated robot using Gazebo and Ros that can chase
         source devel/setup.bash
         roslaunch my_robot world.launch
 
-- On a different terminal run the nodes
-  
-        cd catkin_ws
-        source devel/setup.bash
-        roslaunch ball_chaser ball_chaser.launch
+- Launch the amcl algorithm
+        roslaunch my_robot amcl.launch
 
 ## License
 MIT License Copyright (c) 2020 Santiago Hurtado
