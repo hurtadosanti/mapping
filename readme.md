@@ -36,6 +36,7 @@ In this project, we create a simulated robot using Gazebo and Ros that can ident
         roslaunch my_robot world.launch
 
 - Launch the amcl algorithm
+
         roslaunch my_robot amcl.launch
 
 ## License
