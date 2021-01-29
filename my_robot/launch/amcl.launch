@@ -17,14 +17,14 @@
 
         <param name="initial_pose_a" value="1.5"/>
         
-        <param name="update_min_d" value="0.1"/>
-        <param name="update_min_a" value="0.5"/>
+        <param name="update_min_d" value="0.2"/>
+        <param name="update_min_a" value="0.1"/>
         
         <param name="laser_model_type" value="likelihood_field"/>
         
-        <param name="laser_max_beams" value="50"/>
+        <param name="laser_max_beams" value="30"/>
         <param name="laser_z_hit" value="1"/>
-        <param name="laser_z_rand" value="0.1"/>
+        <param name="laser_z_rand" value="0.025"/>
 
     </node>
     <!-- Move Base -->
