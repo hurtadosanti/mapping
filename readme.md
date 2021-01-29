@@ -1,7 +1,7 @@
 # Where Am I?
 In this project, we create a simulated robot using Gazebo and Ros that can identify the pose and localization. We use ROS [AMCL](http://wiki.ros.org/amcl) package. The package is an implementation of the adaptive Monte Carlo localization approach.
 
-![sample](./resources/amcl.png)
+![sample](resources/acml.png)
 
 ## Dependencies
 - Ubuntu 16.04
