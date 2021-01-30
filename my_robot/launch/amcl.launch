@@ -15,7 +15,7 @@
         <param name="min_particles" value="100"/>
         <param name="max_particles" value="500"/>
 
-        <param name="initial_pose_a" value="1.5"/>
+        <param name="initial_pose_a" value="4.7"/>
         
         <param name="update_min_d" value="0.2"/>
         <param name="update_min_a" value="0.1"/>
@@ -23,7 +23,7 @@
         <param name="laser_model_type" value="likelihood_field"/>
         
         <param name="laser_max_beams" value="30"/>
-        <param name="laser_z_hit" value="1"/>
+        <param name="laser_z_hit" value="0.975"/>
         <param name="laser_z_rand" value="0.025"/>
 
     </node>
