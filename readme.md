@@ -1,12 +1,11 @@
-# Where Am I?
-In this project, we create a simulated robot using Gazebo and Ros that can identify the pose and localization. We use ROS [AMCL](http://wiki.ros.org/amcl) package. The package is an implementation of the adaptive Monte Carlo localization approach.
-
-![sample](resources/acml.png)
+# Map My World!
+In this project you will create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
 
 ## Dependencies
 - Ubuntu 16.04
 - ROS Kinetic Kame
-- [AMCL]((http://wiki.ros.org/amcl)) ROS Module
+- [AMCL](http://wiki.ros.org/amcl) ROS Module
+- [RTABMAP](http://wiki.ros.org/rtabmap_ros)
 ## Installation
 - Create a workspace
 
@@ -15,7 +14,7 @@ In this project, we create a simulated robot using Gazebo and Ros that can ident
 
 - Clone this repository on the src folder location
   
-        git clone git@github.com:hurtadosanti/localization.git ./src
+        git clone git@github.com:hurtadosanti/mapping.git ./src
 
 - Initialize workspace
         
