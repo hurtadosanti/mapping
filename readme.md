@@ -1,5 +1,5 @@
 # Map My World!
-In this project you will create a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
+In this project we created a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
 
 ## Dependencies
 - Ubuntu 16.04
