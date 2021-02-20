@@ -1,11 +1,15 @@
 # Map My World!
 In this project we created a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
 
+![map](./resources/210220143904870.png)
+
 ## Dependencies
 - Ubuntu 16.04
 - ROS Kinetic Kame
 - [AMCL](http://wiki.ros.org/amcl) ROS Module
 - [RTABMAP](http://wiki.ros.org/rtabmap_ros)
+
+
 ## Installation
 - Create a workspace
 
@@ -33,6 +37,19 @@ In this project we created a 2D occupancy grid and 3D octomap from a simulated e
         cd catkin_ws
         source devel/setup.bash
         roslaunch my_robot world.launch
+
+- Run the teleop package
+        cd catkin_ws
+        source devel/setup.bash
+        roslaunch my_robot teleop.launch
+
+- Run the mapping package and navigate
+        cd catkin_ws
+        source devel/setup.bash
+        roslaunch my_robot mapping.launch
+
+## Resources
+On the resources the rtabmap.db is compress here [rtabmap.tgz](resources/rtabmap.tgz)
 
 ## License
 MIT License Copyright (c) 2020 Santiago Hurtado
