@@ -3,6 +3,9 @@ In this project we created a 2D occupancy grid and 3D octomap from a simulated e
 
 ![map](./resources/210220143904870.png)
 
+## 3D Representation
+![3D](./resources/3d_map.png)
+
 ## Dependencies
 - Ubuntu 16.04
 - ROS Kinetic Kame
@@ -29,7 +32,7 @@ In this project we created a 2D occupancy grid and 3D octomap from a simulated e
   
         cd ..
         catkin_make
-        
+
 ## Execution
 
 - Run the main program in a terminal with X support
@@ -49,7 +52,9 @@ In this project we created a 2D occupancy grid and 3D octomap from a simulated e
         roslaunch my_robot mapping.launch
 
 ## Resources
-On the resources the rtabmap.db is compress here [rtabmap.tgz](resources/rtabmap.tgz)
+Since the rtabmap.db is too big, it was splitted in files, to merge use:
+
+        cat xa* > rtabmap.db
 
 ## License
 MIT License Copyright (c) 2020 Santiago Hurtado
