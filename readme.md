@@ -1,7 +1,7 @@
 # Map My World!
 In this project we created a 2D occupancy grid and 3D octomap from a simulated environment using your own robot with the RTAB-Map package.
 
-![map](./resources/210220143904870.png)
+![map](./resources/2d_map.png)
 
 ## 3D Representation
 ![3D](./resources/3d_map.png)
