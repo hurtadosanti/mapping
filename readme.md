@@ -53,7 +53,7 @@ In this project we created a 2D occupancy grid and 3D octomap from a simulated e
         roslaunch my_robot mapping.launch
 
 ## Resources
-[Rtab Database](./resources/rtabmap.db.tar.xz)
+The [Rtab Database](./resources/rtabmap.db.tar.xz) containes the data to visualize the results and path to obtain the map.
 
 ## License
 MIT License Copyright (c) 2020 Santiago Hurtado
